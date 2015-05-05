@@ -1,0 +1,44 @@
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.map {
+  position: relative;
+}
+
+point {
+  position: absolute;
+}
+
+.point {
+  cursor: pointer;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: rgba(0, 0, 255, .5);
+}
+
+#tubemap {
+  background: url('tube-map-1024.png') no-repeat;
+  height: 708px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.map-modal {
+  margin: 8px;
+}
+
+.map-modal .tab-content {
+  margin: 8px;
+}
+
+.gallery ul {
+  list-style-type: none;
+  overflow: auto;
+}
+
+.gallery .img-thumbnail {
+  cursor: pointer;
+  margin-bottom: 10px;
+}

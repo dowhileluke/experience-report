@@ -1,0 +1,15 @@
+<div class="map-modal">
+  <h1>{{info.name}}</h1>
+  <tabset>
+    <tab heading="Stories">
+      <accordion>
+        <accordion-group ng-repeat="story in info.stories" heading="{{story.title}}">
+          <div ng-bind-html="story.content"></div>
+        </accordion-group>
+      </accordion>
+    </tab>
+    <tab heading="Photos" ng-show="info.images.length">
+      <gallery src="info.images" path="images/"></gallery>
+    </tab>
+  </tabset>
+</div>
